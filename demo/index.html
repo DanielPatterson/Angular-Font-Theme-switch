@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app="switchApp">
+<head>
+    <title>Angular Font Theme Switch</title>
+    <script src="dist/angular.js"></script>
+    <link rel="stylesheet" href="dist/bootstrap.css">
+    
+    <link theme-link>
+    <link font-link>
+
+    <script src="js/theme-switcher.js"></script>
+    <script src="js/font-switcher.js"></script>
+    <script src="js/fontTheme-switch.config.js"></script>
+    
+</head>
+<body>
+<div class="container">
+
+    <h1>Angular Font and Theme switcher</h1>
+    <p>Uses local storage to save the selected theme.</p>
+    <hr />
+	
+    <div class="row">
+    	<div class="col-lg-4">
+            <div class="font-switcher" font-switcher></div>
+            <hr />    
+        
+            <div class="theme-switcher" theme-switcher></div>
+    	</div>
+	</div>
+</div>
+</body>
+</head>
+</html>
